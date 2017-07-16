@@ -10601,7 +10601,7 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="470"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="POWER" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603"/>
-<part name="SUPPLY" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" deviceset="632723100011" device=""/>
+<part name="J1" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" deviceset="632723100011" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -10653,7 +10653,7 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 <instance part="R14" gate="G$1" x="292.1" y="482.6" rot="R90"/>
 <instance part="GND12" gate="1" x="320.04" y="469.9"/>
 <instance part="POWER" gate="G$1" x="304.8" y="472.44" rot="R90"/>
-<instance part="SUPPLY" gate="G$1" x="287.02" y="383.54"/>
+<instance part="J1" gate="G$1" x="287.02" y="383.54"/>
 <instance part="GND11" gate="1" x="312.42" y="365.76"/>
 <instance part="GND13" gate="1" x="261.62" y="365.76"/>
 </instances>
@@ -11015,19 +11015,19 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="261.62" y1="368.3" x2="261.62" y2="370.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY" gate="G$1" pin="GND1"/>
+<pinref part="J1" gate="G$1" pin="GND1"/>
 <wire x1="261.62" y1="370.84" x2="269.24" y2="370.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="269.24" y1="398.78" x2="261.62" y2="398.78" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="398.78" x2="261.62" y2="370.84" width="0.1524" layer="91"/>
 <junction x="261.62" y="370.84"/>
 </segment>
 <segment>
-<pinref part="SUPPLY" gate="G$1" pin="GND3"/>
+<pinref part="J1" gate="G$1" pin="GND3"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="304.8" y1="370.84" x2="312.42" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="370.84" x2="312.42" y2="368.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY" gate="G$1" pin="GND2"/>
+<pinref part="J1" gate="G$1" pin="GND2"/>
 <wire x1="304.8" y1="398.78" x2="312.42" y2="398.78" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="398.78" x2="312.42" y2="370.84" width="0.1524" layer="91"/>
 <junction x="312.42" y="370.84"/>
@@ -11433,21 +11433,21 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 <label x="269.24" y="492.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SUPPLY" gate="G$1" pin="VBUS"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="269.24" y1="391.16" x2="266.7" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="391.16" x2="266.7" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY" gate="G$1" pin="VBUS1"/>
+<pinref part="J1" gate="G$1" pin="VBUS1"/>
 <wire x1="266.7" y1="406.4" x2="266.7" y2="414.02" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="378.46" x2="266.7" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="378.46" x2="266.7" y2="391.16" width="0.1524" layer="91"/>
 <junction x="266.7" y="391.16"/>
-<pinref part="SUPPLY" gate="G$1" pin="VBUS3"/>
+<pinref part="J1" gate="G$1" pin="VBUS3"/>
 <wire x1="304.8" y1="378.46" x2="307.34" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="378.46" x2="307.34" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="391.16" x2="307.34" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="406.4" x2="266.7" y2="406.4" width="0.1524" layer="91"/>
 <junction x="266.7" y="406.4"/>
-<pinref part="SUPPLY" gate="G$1" pin="VBUS2"/>
+<pinref part="J1" gate="G$1" pin="VBUS2"/>
 <wire x1="304.8" y1="391.16" x2="307.34" y2="391.16" width="0.1524" layer="91"/>
 <junction x="307.34" y="391.16"/>
 <label x="266.7" y="414.02" size="1.778" layer="95"/>
